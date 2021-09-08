@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Rotating Navigation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <header class="header h3-heading">
+                <img src="./images/Taki logo black.png" alt="" srcset="" >
+                <!-- <small>Sustainable fashion</small> -->
+            </header>
+
+            <p>Our goal is to become Nigeria's largest online resale platform for women, men,  kids apparel, and accessories. Our mission is to inspire a new generation of shoppers to think of secondhand clothes first. You can shop like-new and used clothes at up to 70% off estimated retail at our online thrift store. From Gap to Gucci, we have all your favorite brands (including Zara, Aldo, Next, Fashionova & more!) for less. Plus, enjoy new arrivals bi-weekly. Happy thrifting!</p>
+
+            <div class="about">
+                <h2 class="h3-heading">What We Do</h2>
+                <article class="about-list">
+                    <div class="about-list-item">
+                        <i class="ri-shopping-cart-line icons"></i>
+                        <h3>Find it</h3>
+                        <p>Discover the thrill of finding one-of-a-kind pieces at ridiculously low prices.</p>
+                    </div>
+
+                    <div class="about-list-item">
+                        <i class="ri-magic-line icons"></i>
+                        <h3>Flaunt it</h3>
+                        <p>Show off your secondhand/new clothes with pride, knowing you got a good bargain.</p>
+                    </div>
+
+                    <div class="about-list-item">
+                        <i class="fas fa-recycle icons"></i>
+                        <h3>Set it free</h3>
+                        <p>Feel good about releasing your unwanted clothes to thrifters who will love them.</p>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="new-arrivals">
+                <h2 class="h3-heading">New Arrivals</h2>
+
+                <div class="contain">
+                    <div class="contain-body">
+                    
+                        <div class="panel">
+                            <img src="./images/green-skirt.jpeg" alt="" class="image">
+                        </div>
+    
+                        <div class="panel active">
+                            <img src="./images/midi-dress.jpeg" alt="" class="image">
+                        </div>
+    
+                        <div class="panel">
+                            <img src="./images/titac-skirt.jpeg" alt="" class="image">
+                        </div>
+    
+                        <div class="panel">
+                            <img src="./images/brown-pants.jpeg" alt="" class="image">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="btn">
+                 <button class="button"> Shop Now </button> 
+            </div>
+
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fab fa-instagram" ></i>instagram</li>
+            <li><i class="fab fa-facebook"></i>facebook</li>
+            <li><i class="fab fa-whatsapp"></i>whatsapp</li>
+        </ul>
+    </nav>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__data">
+                    <h3 class="footer__title">Taki Pieces</h3>
+                    <p class="footer__description">Thrifting is about more than <br> just finding astonishing deals. <br> It’s about buying with intention
+                    </p>   
+                    
+                    <div class="footer__data">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">FAQs</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2021 Julescode. All rigths reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
